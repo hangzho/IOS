@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DBFB2C195DF44000E35726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFB2B195DF44000E35726 /* AppDelegate.swift */; };
+		04DBFB2E195DF44000E35726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFB2D195DF44000E35726 /* ViewController.swift */; };
+		04DBFB31195DF44000E35726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBFB2F195DF44000E35726 /* Main.storyboard */; };
+		04DBFB33195DF44000E35726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBFB32195DF44000E35726 /* Images.xcassets */; };
+		04DBFB3F195DF44000E35726 /* PikerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBFB3E195DF44000E35726 /* PikerDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DBFB39195DF44000E35726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DBFB1E195DF44000E35726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DBFB25195DF44000E35726;
+			remoteInfo = PikerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DBFB26195DF44000E35726 /* PikerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBFB2A195DF44000E35726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DBFB2B195DF44000E35726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04DBFB2D195DF44000E35726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DBFB30195DF44000E35726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DBFB32195DF44000E35726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04DBFB38195DF44000E35726 /* PikerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBFB3D195DF44000E35726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DBFB3E195DF44000E35726 /* PikerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikerDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DBFB23195DF44000E35726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBFB35195DF44000E35726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DBFB1D195DF44000E35726 = {
+			isa = PBXGroup;
+			children = (
+				04DBFB28195DF44000E35726 /* PikerDemo */,
+				04DBFB3B195DF44000E35726 /* PikerDemoTests */,
+				04DBFB27195DF44000E35726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DBFB27195DF44000E35726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFB26195DF44000E35726 /* PikerDemo.app */,
+				04DBFB38195DF44000E35726 /* PikerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DBFB28195DF44000E35726 /* PikerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFB2B195DF44000E35726 /* AppDelegate.swift */,
+				04DBFB2D195DF44000E35726 /* ViewController.swift */,
+				04DBFB2F195DF44000E35726 /* Main.storyboard */,
+				04DBFB32195DF44000E35726 /* Images.xcassets */,
+				04DBFB29195DF44000E35726 /* Supporting Files */,
+			);
+			path = PikerDemo;
+			sourceTree = "<group>";
+		};
+		04DBFB29195DF44000E35726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFB2A195DF44000E35726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DBFB3B195DF44000E35726 /* PikerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFB3E195DF44000E35726 /* PikerDemoTests.swift */,
+				04DBFB3C195DF44000E35726 /* Supporting Files */,
+			);
+			path = PikerDemoTests;
+			sourceTree = "<group>";
+		};
+		04DBFB3C195DF44000E35726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04DBFB3D195DF44000E35726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DBFB25195DF44000E35726 /* PikerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBFB42195DF44000E35726 /* Build configuration list for PBXNativeTarget "PikerDemo" */;
+			buildPhases = (
+				04DBFB22195DF44000E35726 /* Sources */,
+				04DBFB23195DF44000E35726 /* Frameworks */,
+				04DBFB24195DF44000E35726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PikerDemo;
+			productName = PikerDemo;
+			productReference = 04DBFB26195DF44000E35726 /* PikerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DBFB37195DF44000E35726 /* PikerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBFB45195DF44000E35726 /* Build configuration list for PBXNativeTarget "PikerDemoTests" */;
+			buildPhases = (
+				04DBFB34195DF44000E35726 /* Sources */,
+				04DBFB35195DF44000E35726 /* Frameworks */,
+				04DBFB36195DF44000E35726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DBFB3A195DF44000E35726 /* PBXTargetDependency */,
+			);
+			name = PikerDemoTests;
+			productName = PikerDemoTests;
+			productReference = 04DBFB38195DF44000E35726 /* PikerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DBFB1E195DF44000E35726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Johan;
+				TargetAttributes = {
+					04DBFB25195DF44000E35726 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					04DBFB37195DF44000E35726 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 04DBFB25195DF44000E35726;
+					};
+				};
+			};
+			buildConfigurationList = 04DBFB21195DF44000E35726 /* Build configuration list for PBXProject "PikerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DBFB1D195DF44000E35726;
+			productRefGroup = 04DBFB27195DF44000E35726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DBFB25195DF44000E35726 /* PikerDemo */,
+				04DBFB37195DF44000E35726 /* PikerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DBFB24195DF44000E35726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DBFB31195DF44000E35726 /* Main.storyboard in Resources */,
+				04DBFB33195DF44000E35726 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBFB36195DF44000E35726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DBFB22195DF44000E35726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DBFB2E195DF44000E35726 /* ViewController.swift in Sources */,
+				04DBFB2C195DF44000E35726 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBFB34195DF44000E35726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DBFB3F195DF44000E35726 /* PikerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DBFB3A195DF44000E35726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DBFB25195DF44000E35726 /* PikerDemo */;
+			targetProxy = 04DBFB39195DF44000E35726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DBFB2F195DF44000E35726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DBFB30195DF44000E35726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DBFB40195DF44000E35726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DBFB41195DF44000E35726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DBFB43195DF44000E35726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PikerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04DBFB44195DF44000E35726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PikerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04DBFB46195DF44000E35726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PikerDemo.app/PikerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PikerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		04DBFB47195DF44000E35726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PikerDemo.app/PikerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PikerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DBFB21195DF44000E35726 /* Build configuration list for PBXProject "PikerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBFB40195DF44000E35726 /* Debug */,
+				04DBFB41195DF44000E35726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBFB42195DF44000E35726 /* Build configuration list for PBXNativeTarget "PikerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBFB43195DF44000E35726 /* Debug */,
+				04DBFB44195DF44000E35726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04DBFB45195DF44000E35726 /* Build configuration list for PBXNativeTarget "PikerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBFB46195DF44000E35726 /* Debug */,
+				04DBFB47195DF44000E35726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DBFB1E195DF44000E35726 /* Project object */;
+}

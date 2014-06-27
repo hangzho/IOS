@@ -25,7 +25,7 @@
                                     <action selector="displayDay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zYw-fu-biE"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="cA7-vY-SYA">
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="cA7-vY-SYA">
                                 <rect key="frame" x="0.0" y="56" width="320" height="162"/>
                                 <date key="date" timeIntervalSinceReferenceDate="425579063.436064">
                                     <!--<__NSDate Class=2014-06-27 16:24:23 +0000 timeInterval=425579063.436064 ISO8601=2014-06-27T12:24:23.436-0400>-->
