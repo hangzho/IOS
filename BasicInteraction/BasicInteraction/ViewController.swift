@@ -30,7 +30,9 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
-        simpleTextField.resignFirstResponder()
+        var contents = simpleTextField.text
+        simpleLabel.text = "Hello " + contents
+        textField.resignFirstResponder()
         return true
     }
 
