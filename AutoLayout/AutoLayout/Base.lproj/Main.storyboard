@@ -17,11 +17,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-Z9-Qob">
-                                <rect key="frame" x="239" y="30" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="211" y="30" width="74" height="30"/>
+                                <state key="normal" title="What day?">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="displayDay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zYw-fu-biE"/>
+                                </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="cA7-vY-SYA">
+                                <rect key="frame" x="0.0" y="56" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="425579063.436064">
+                                    <!--<__NSDate Class=2014-06-27 16:24:23 +0000 timeInterval=425579063.436064 ISO8601=2014-06-27T12:24:23.436-0400>-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gn-lq-YL5">
+                                <rect key="frame" x="48" y="229" width="237" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -29,6 +44,10 @@
                             <constraint firstItem="eWM-Z9-Qob" firstAttribute="top" secondItem="Qfu-sU-G3d" secondAttribute="bottom" constant="10" id="jGn-gf-bp5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="cA7-vY-SYA" id="6O4-Pa-evP"/>
+                        <outlet property="showLabel" destination="2Gn-lq-YL5" id="Rnh-Ef-h6h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
