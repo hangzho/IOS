@@ -31,6 +31,19 @@ class ViewController: UIViewController {
             //data for each row
     }
     
+    func pickerView(pickerView: UIPickerView!,
+        didSelectRow row: Int,
+        inComponent component: Int){
+            var moodColor:UIColor
+            switch row {
+            case 1: moodColor = UIColor(red: 1.0, green: 0.85, blue: 0.0, alpha: 1.0)
+            case 2: moodColor = UIColor(red: 0.11, green: 0.11, blue: 0.11, alpha: 1.0)
+            case 3: moodColor = UIColor.blueColor()
+            default: moodColor = UIColor.whiteColor()
+            }
+            self.view.backgroundColor = moodColor
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
