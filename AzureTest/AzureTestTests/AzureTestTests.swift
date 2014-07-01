@@ -7,7 +7,7 @@
 //
 
 import XCTest
-
+import WindowsAzureMobileServices
 class AzureTestTests: XCTestCase {
     
     override func setUp() {

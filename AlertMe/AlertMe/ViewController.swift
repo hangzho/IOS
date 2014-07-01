@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var myAlert:UIAlertView = UIAlertView(title: "alert", message: "hello test alert", delegate: nil, cancelButtonTitle: "Okey", otherButtonTitles: nil, nil)
-        myAlert.show()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,5 +22,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func alert(sender : AnyObject) {
+        let myAlert:UIAlertView = UIAlertView()
+        myAlert.title = "Alert"
+        myAlert.message = "Here's a message"
+        myAlert.addButtonWithTitle("Understod")
+        myAlert.show()
+        
+    }
 }
 
