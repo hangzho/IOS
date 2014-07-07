@@ -55,7 +55,7 @@
                     <navigationItem key="navigationItem" id="G7S-9h-I5D">
                         <barButtonItem key="rightBarButtonItem" title="Details" id="OeG-3L-21w">
                             <connections>
-                                <segue destination="f76-x2-GxA" kind="modal" id="ERB-Qx-VM9"/>
+                                <segue destination="f76-x2-GxA" kind="modal" modalTransitionStyle="partialCurl" id="ERB-Qx-VM9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -79,18 +79,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-bk-4Gr">
+                                <rect key="frame" x="223" y="354" width="37" height="30"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="f76-x2-GxA" eventType="touchUpInside" id="A4V-dJ-DwR"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="AQR-dV-JGD">
-                                <rect key="frame" x="33" y="222" width="260" height="124"/>
+                                <rect key="frame" x="20" y="108" width="260" height="124"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-bk-4Gr">
-                                <rect key="frame" x="247" y="490" width="37" height="30"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

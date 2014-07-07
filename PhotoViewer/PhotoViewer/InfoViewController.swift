@@ -13,15 +13,18 @@ class InfoViewController: UIViewController {
     var currentPhoto:Photo?
 
     @IBOutlet var detailsLabel : UILabel
-    
-    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        // Custom initialization
+    @IBAction func back(sender : AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
+    
+//    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+//        // Custom initialization
+//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        detailsLabel.text = currentPhoto?.notes
         // Do any additional setup after loading the view.
     }
 

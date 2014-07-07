@@ -11,13 +11,13 @@ import UIKit
 
 class PhotosTableViewController: UITableViewController {
     
-    var currentPhoto:Photo?
-    var photos = NSMutableArray()
+    //var currentPhoto:Photo?
+    var photos:NSMutableArray = NSMutableArray()
     
-    init(style: UITableViewStyle) {
-        super.init(style: style)
-        // Custom initialization
-    }
+//    init(style: UITableViewStyle) {
+//        super.init(style: style)
+//        // Custom initialization
+//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class PhotosTableViewController: UITableViewController {
         var pic  = Photo(name: "Emerald Bay",filename: "emeraldbay",notes: "Emerald Bay, one of Lake Tahoe's most popular and photogenic locations.")
         photos.addObject(pic)
         
-        pic  = Photo(name: "A Joshua Tree",filename: "A Joshua Tree",notes: "A Joshua Tree in the Mojave Desert")
+        pic  = Photo(name: "A Joshua Tree",filename: "joshuatree",notes: "A Joshua Tree in the Mojave Desert")
         photos.addObject(pic)
         
         pic = Photo(name: "Sunset in Ventura",filename: "sunset",notes: "Romantic sunset at the beach")
@@ -68,14 +68,22 @@ class PhotosTableViewController: UITableViewController {
     }
 
 
-    override func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
-        let cell = tableView?.dequeueReusableCellWithIdentifier("joe", forIndexPath: indexPath) as UITableViewCell
-        // Configure the cell...
-        var indNo = indexPath?.row
-        var current = photos.objectAtIndex(indNo!)
+//    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
+//        let cell = tableView!.dequeueReusableCellWithIdentifier("joe", forIndexPath: indexPath) as UITableViewCell
+//        // Configure the cell...
+//        var indNo = indexPath!.row
+//        var current = photos.objectAtIndex(indNo!)
+//        cell.textLabel.text = current.name
+//        return cell
+//    }
+    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+        let cell = tableView!.dequeueReusableCellWithIdentifier("joe", forIndexPath: indexPath) as UITableViewCell
+        var indNo = indexPath.row
+        var current = photos.objectAtIndex(indNo) as Photo
         cell.textLabel.text = current.name
         return cell
     }
+    
 
 
     /*
@@ -113,14 +121,22 @@ class PhotosTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // #pragma mark - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue?, sender: AnyObject?) {
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
+        var pvc :DisplayViewController = segue!.destinationViewController as DisplayViewController
         // Pass the selected object to the new view controller.
+        //what's the selected cell?
+        var path:NSIndexPath = self.tableView!.indexPathForSelectedRow()
+        var c:Photo = photos[path.row] as Photo
+        pvc.currentPhoto = c
+        pvc.str = "zhouhang"
+        
+        
     }
-    */
+    
 
 }
