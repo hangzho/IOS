@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var plistPath:String = NSBundle.mainBundle().pathForResource("plistdemo", ofType: "plist")
+        var data:NSMutableDictionary = NSMutableDictionary(contentsOfFile: plistPath)
+        NSLog("%@", data)
+        
+        data.setObject("add some content", forKey: "c_key")
+
     }
 
     override func didReceiveMemoryWarning() {

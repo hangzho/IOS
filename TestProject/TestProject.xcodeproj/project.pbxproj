@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04733E0A196C45BB003B6178 /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04733E09196C45BB003B6178 /* plistdemo.plist */; };
+		04733E0B196C45BB003B6178 /* plistdemo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04733E09196C45BB003B6178 /* plistdemo.plist */; };
 		04FA6C391966232100F3A3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA6C381966232100F3A3CE /* AppDelegate.swift */; };
 		04FA6C3B1966232100F3A3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA6C3A1966232100F3A3CE /* ViewController.swift */; };
 		04FA6C3E1966232100F3A3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA6C3C1966232100F3A3CE /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04733E09196C45BB003B6178 /* plistdemo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plistdemo.plist; sourceTree = "<group>"; };
 		04FA6C331966232100F3A3CE /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FA6C371966232100F3A3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FA6C381966232100F3A3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				04FA6C4A1966232100F3A3CE /* Info.plist */,
+				04733E09196C45BB003B6178 /* plistdemo.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FA6C3E1966232100F3A3CE /* Main.storyboard in Resources */,
+				04733E0A196C45BB003B6178 /* plistdemo.plist in Resources */,
 				04FA6C401966232100F3A3CE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04733E0B196C45BB003B6178 /* plistdemo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +407,7 @@
 				04FA6C511966232100F3A3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FA6C521966232100F3A3CE /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +416,7 @@
 				04FA6C541966232100F3A3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
